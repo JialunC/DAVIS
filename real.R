@@ -1,4 +1,12 @@
+#DAVID requires email verification to use its R package and I have not yet able to set up the env. DAVID has not been updated
+#for over 10 years so I decided to switch to Enrichr, which have more libraries and is being constantly updated. 
+#1.need to work on its api purse function
+#2.for GSEA, I need to generate expression dateset and phenotype labels as inputs, gene sets can be downloaded from broadinstitute.org
+#3.need to define the data structure for GSEA, also 4.which gene sets to use? 5.hows is the package being used? 
+#6.also how to pipe the data from ontoscope to GSEA and Enrichr. 
 
+
+library(httr)
 data <- read.csv("~/DAVIS/test.csv")
 
 #Funtional Annotation Summary Page (for test data only)
